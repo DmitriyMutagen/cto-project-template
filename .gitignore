@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/settings.local.json
+
+# Test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Artifacts (keep structure, ignore content)
+docs/artifacts/logs/*.log
+docs/artifacts/plans/*.draft.md
+
+# Node (if frontend)
+node_modules/
